@@ -1,6 +1,4 @@
 let detik = 301
-
-// function formatWaktu(detik){
 let menit = 0
 
 for (let i = 60; detik > i; ){
@@ -13,7 +11,3 @@ if (detik < 10) {
 } else {
     console.log(`${menit}:${detik}`)
 }
-//}
-
-// formatWaktu(555)
-// formatWaktu(100)
